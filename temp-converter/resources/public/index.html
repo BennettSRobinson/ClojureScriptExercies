@@ -1,0 +1,30 @@
+<div id="app">
+  <h1>Temp Converter</h1>
+
+  <div class="user-input">
+    <div class="unit-control">                             <!-- 1 -->
+      <p>Convert from</p>
+      <div class="radio-option">
+        <input type="radio" id="unit-c" name="unit" value="c" checked="checked" />
+        <label for="unit-c">Celsius</label>
+      </div>
+      <div class="radio-option">
+        <input type="radio" id="unit-f" name="unit" value="f" />
+        <label for="unit-f">Fahrenheit</label>
+      </div>
+    </div>
+
+    <div class="temp-control">                             <!-- 2 -->
+      <label for="temp">Temperature:</label>
+      <input type="number" id="temp" name="temp" />
+    </div>
+    <button type="submit" id="reset">Reset</button>
+  </div>
+
+  <div class="converted-output">                           <!-- 3 -->
+    <h3>Converted Value</h3>
+
+    <span id="temp-out">-</span>
+    <span id="unit-out">F</span>
+  </div>
+</div>

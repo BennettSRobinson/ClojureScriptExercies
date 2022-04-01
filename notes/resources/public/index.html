@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CLJS Notes</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="https://clojurescript.org/images/cljs-logo-icon-32.png">
+  </head>
+  <body>
+    <div id="app">
+      <div class="sidebar">
+        <div class="sidebar-content"></div>
+      </div>
+
+      <div class="main"></div>
+    </div>
+    <script type="text/javascript">
+        window.API_URL = "https://notes-api.learn-cljs.com";
+        window.API_TOKEN = "017d22583334e448d15f76921d91a515d4fcf11132e565325de59e9a1f6b761dd09c586ae49255f2"
+    </script>
+
+    <!-- KEEP THIS SCRIPT TAG : IT LOADS YOUR APPLICATION CODE -->
+    <script src="cljs-out/dev-main.js" type="text/javascript"></script>
+  </body>
+</html>
